@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.TodoListApp.CustomSplash" parent="Theme.SplashScreen.IconBackground">
+        <item name="windowSplashScreenBackground">#6E902B</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/check_list</item>
+        <item name="windowSplashScreenIconBackgroundColor">#FFFFFF</item>
+        <item name="postSplashScreenTheme">@style/Theme.TodoListApp</item>
+    </style>
+</resources>
