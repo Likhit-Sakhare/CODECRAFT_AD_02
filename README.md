@@ -48,8 +48,6 @@ This task by CODECRAFT INFOTECH is a todoList app where user can save a todo, se
 
 ## Lessons Learned
 
-While building this app, I learned about:
-
 #### **Swipe to Delete using SwipeToDismiss**
   - Learned how to implement swipe-to-delete functionality using Jetpack Compose’s SwipeToDismiss from Material 3.
   - Understood what is dismissState, what is SwipeToDismissBox and how to customize the background while swiping.
@@ -60,7 +58,7 @@ While building this app, I learned about:
   - Learned how to implement automatic bullet point generation, where pressing Enter after a numbered line (1.) automatically adds the next (2.).
 
 #### **Importance of providing a Unique Key in LazyColumn**
-  - Encountered a UI issue where deleting a todo makes the todos below that deleted that todo disappear from the Ui.
+  - Encountered a UI issue where deleting a todo makes the todos below that deleted that todo disappear from the UI.
   - Realized that without a unique key, Jetpack Compose reuses UI elements in LazyColumn, leading to inconsistencies.
   - Solved the issue by assigning the id of each todo as the key, this ensured that deleting a specific todo only affected the intended item.
 
